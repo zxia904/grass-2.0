@@ -1,0 +1,35 @@
+{
+  "name": "getgrass-bot",
+  "version": "2..0",
+  "description": "一个用于通过多种 HTTP 和 SOCKS 代理建立 WebSocket 连接的挂机小草空投第2季的机器人。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziqing888/getgrass-bot.git"
+  },
+  "keywords": [
+    "WebSocket",
+    "proxy",
+    "HTTP",
+    "SOCKS",
+    "bot",
+    "getgrass",
+    "airdrops",
+    "farming"
+  ],
+  "author": "qklxsqf",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "colors": "^1.4.0",
+    "https-proxy-agent": "^7.0.4",
+    "inquirer": "^8.2.6",
+    "socks-proxy-agent": "^8.0.2",
+    "uuid": "^9.0.1",
+    "ws": "^8.16.0"
+  }
+}
