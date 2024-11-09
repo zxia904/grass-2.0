@@ -1,6 +1,6 @@
 {
   "name": "getgrass-bot",
-  "version": "2..0",
+  "version": "0.2.0",
   "description": "一个用于通过多种 HTTP 和 SOCKS 代理建立 WebSocket 连接的挂机小草空投第2季的机器人。",
   "main": "index.js",
   "scripts": {
