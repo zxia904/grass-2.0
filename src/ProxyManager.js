@@ -30,15 +30,17 @@ async function readLines(filename) {
 }
 
 async function selectProxySource(inquirer) {
-  //const choices = [...Object.keys(PROXY_SOURCES), 'CUSTOM', 'NO PROXY'];
-  const { source } = await inquirer.prompt([
-    {
-      type: 'list',
-      name: 'source',
-      message: 'Select proxy source:'.cyan,
-      choices: 'NO PROXY',
-    },
-  ]);
+  // const choices = [...Object.keys(PROXY_SOURCES), 'CUSTOM', 'NO PROXY'];
+  // const { source } = await inquirer.prompt([
+  //   {
+  //     type: 'list',
+  //     name: 'source',
+  //     message: 'Select proxy source:'.cyan,
+  //     choices,
+  //   },
+  // ]);
+
+  const source = 'NO PROXY'
 
   if (source === 'CUSTOM') {
     const { filename } = await inquirer.prompt([
